@@ -3,7 +3,20 @@
 This is a separate repository for PurelyPeer releases, while the source code repositories are still private (for security reasons).
 
 
-# 0.8.2 <img src="https://img.shields.io/badge/Latest-Stable-green?style=flat-square" align="center" height="20" />
+# 0.9.1 <img src="https://img.shields.io/badge/Latest-Stable-green?style=flat-square" align="center" height="20" />
+
+### 🚀 Features
+- `Quests`: added new type of quest called Private Quests (these quests are just visible to whom the owner shares the quest QR code and requires a passcode upon cashdrop collection)
+
+### ✨ Improvements
+- `Security`: sanitized quest memos before saving to database
+- `Security`: enhancements on security issues on both server and app
+- `Vaults`: sent vault refund to quest owner instead of subdividing it on vault owner, merchant and PurelyPeer
+- `Stats`: enhanced stats fetching speed
+- `Gallery`: ordered NFTs by transaction timestamp
+
+
+# 0.8.2 <img src="https://img.shields.io/badge/History-v0.8.2-blue?style=flat-square" align="center" height="20" />
 
 ### 📦 Source File
 - [Release APK](./apks/purelypeer-app-v0.8.2_android.apk)
