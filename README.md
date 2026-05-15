@@ -18,9 +18,6 @@ This is a separate repository for PurelyPeer releases, while the source code rep
 
 # 0.8.2 <img src="https://img.shields.io/badge/History-v0.8.2-blue?style=flat-square" align="center" height="20" />
 
-### 📦 Source File
-- [Release APK](./apks/purelypeer-app-v0.8.2_android.apk)
-
 ### ✨ Improvements
 - `Create Mode`: added media posting during quest creation
 - `Create Mode`: added text moderation on quest name and memo
@@ -36,9 +33,6 @@ This is a separate repository for PurelyPeer releases, while the source code rep
 - `Notifications`: fixed bug on multicast notifications for flagging cashdrops and unblocking users
 
 # 0.8.1 <img src="https://img.shields.io/badge/History-v0.8.1-blue?style=flat-square" align="center" height="20" />
-
-### 📦 Source File
-- [Release APK](./apks/purelypeer-app-v0.8.1_android.apk)
 
 ### 🚀 Features
 - `Create Mode`: users can now add media
@@ -56,9 +50,6 @@ This is a separate repository for PurelyPeer releases, while the source code rep
 
 
 # 0.8.0 <img src="https://img.shields.io/badge/Status-Deprecated-red?style=flat-square" align="center" height="20" />
-
-### 📦 Source File
-- [Release APK](./apks/purelypeer-app-v0.8.0_android.apk)
 
 ### 🚀 Features
 - `CashTokens`: added CashTokens support for wallets (send, receive, gallery, etc.)
