@@ -5,12 +5,12 @@ This is a separate repository for PurelyPeer releases, while the source code rep
 # 0.9.2 <img src="https://img.shields.io/badge/Latest-Stable-green?style=flat-square" align="center" height="20" />
 
 ### 🚀 Improvements:
-- Create Mode: default toggle to public quests on form
-- Create Mode: changed notes on form for public and private quests
+- `Create Mode`: default toggle to public quests on form
+- `Create Mode`: changed notes on form for public and private quests
 
 ### 🔧 Bug Fixes:
-- Transactions: fixed incorrect change address set during transactions
-- Merchants: fixed incorrect merchants showing on merchants dialog selection
+- `Transactions`: fixed incorrect change address set during transactions
+- `Merchants`: fixed incorrect merchants showing on merchants dialog selection
 
 # 0.9.1 <img src="https://img.shields.io/badge/History-v0.9.1-blue?style=flat-square" align="center" height="20" />
 
