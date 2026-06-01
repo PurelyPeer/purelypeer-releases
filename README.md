@@ -2,8 +2,27 @@
 
 This is a separate repository for PurelyPeer releases, while the source code repositories are still private (for security reasons).
 
-# 0.9.2 <img src="https://img.shields.io/badge/Latest-Stable-green?style=flat-square" align="center" height="20" />
+# 0.9.3 <img src="https://img.shields.io/badge/Latest-Stable-green?style=flat-square" align="center" height="20" />
+### 🚀 Features
+- `App Update`: added dialog during app startup, that lets users know if there is a new app version released
 
+### ✨ Improvements
+- `Quests`: added indicator that a quest is private
+- `Quests`: added show quest flyer for creator, on quest details
+- `Quests`: implemented deep-linking of quest flyer links
+- `Collect Mode`: removed passcode input during collection (automated once user is a member)
+- `Explore Mode`: added list filter for private quests
+- `Explore Mode`: displayed private quests (non-members still can’t collect)
+- `App Attestation`: refreshed tokens for commonly used request to avoid false-positive token replays
+- `Server Connectivity`: fixed server delays and lags due to memory leaks from background tasks
+- `Language`: added more text translations
+
+### 🔧 Bug Fixes
+- `Collect Mode`: clicking on current location button already hovers map to correct location
+- `Websocket`: closed rejected websocket connections
+
+
+# 0.9.2
 ### 🚀 Improvements:
 - `Create Mode`: default toggle to public quests on form
 - `Create Mode`: changed notes on form for public and private quests
@@ -12,7 +31,7 @@ This is a separate repository for PurelyPeer releases, while the source code rep
 - `Transactions`: fixed incorrect change address set during transactions
 - `Merchants`: fixed incorrect merchants showing on merchants dialog selection
 
-# 0.9.1 <img src="https://img.shields.io/badge/History-v0.9.1-blue?style=flat-square" align="center" height="20" />
+# 0.9.1
 
 ### 🚀 Features
 - `Quests`: added new type of quest called Private Quests (these quests are just visible to whom the owner shares the quest QR code and requires a passcode upon cashdrop collection)
@@ -25,7 +44,7 @@ This is a separate repository for PurelyPeer releases, while the source code rep
 - `Gallery`: ordered NFTs by transaction timestamp
 
 
-# 0.8.2 <img src="https://img.shields.io/badge/Status-Deprecated-red?style=flat-square" align="center" height="20" />
+# 0.8.2
 
 ### ✨ Improvements
 - `Create Mode`: added media posting during quest creation
@@ -41,7 +60,7 @@ This is a separate repository for PurelyPeer releases, while the source code rep
 - `Create Mode`: fixed bug on memo editing becoming null
 - `Notifications`: fixed bug on multicast notifications for flagging cashdrops and unblocking users
 
-# 0.8.1 <img src="https://img.shields.io/badge/Status-Deprecated-red?style=flat-square" align="center" height="20" />
+# 0.8.1
 
 ### 🚀 Features
 - `Create Mode`: users can now add media
@@ -58,7 +77,7 @@ This is a separate repository for PurelyPeer releases, while the source code rep
 - `Quest Details`: fixed blank URLs showing as unsafe
 
 
-# 0.8.0 <img src="https://img.shields.io/badge/Status-Deprecated-red?style=flat-square" align="center" height="20" />
+# 0.8.0
 
 ### 🚀 Features
 - `CashTokens`: added CashTokens support for wallets (send, receive, gallery, etc.)
