@@ -2,7 +2,21 @@
 
 This is a separate repository for PurelyPeer releases, while the source code repositories are still private (for security reasons).
 
-# 0.9.3 <img src="https://img.shields.io/badge/Latest-Stable-green?style=flat-square" align="center" height="20" />
+
+# 0.9.4 <img src="https://img.shields.io/badge/Latest-Stable-green?style=flat-square" align="center" height="20" />
+### ✨ Improvements
+- `Collect Mode`: added and optimized user rotation indicator on collect map
+- `Quests`: moved private quest indicator (lock icon) on quest details to the left of the quest ID to make it more visible
+- `Quests`: added indicator that user is member of a private quest
+- `Wallet`: trimmed trailing white spaces of seed phrase input during import
+- `General`: fetched real time (previously cached) data for balances, wallet history, conversion rates, quests, and notifications
+- `General`: added retry to server data fetching when app is disconnected from server/internet 
+### 🔧 Bug Fixes
+- `Wallet`: hid fiat conversion rate showing before actual wallet balance conversion
+- `Merchant Vaults`: fixed payment vaults not loading on gallery
+
+
+# 0.9.3
 ### 🚀 Features
 - `App Update`: added dialog during app startup, that lets users know if there is a new app version released
 
@@ -23,7 +37,7 @@ This is a separate repository for PurelyPeer releases, while the source code rep
 
 
 # 0.9.2
-### 🚀 Improvements:
+### ✨ Improvements:
 - `Create Mode`: default toggle to public quests on form
 - `Create Mode`: changed notes on form for public and private quests
 
