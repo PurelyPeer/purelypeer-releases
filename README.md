@@ -3,7 +3,15 @@
 This is a separate repository for PurelyPeer releases, while the source code repositories are still private (for security reasons).
 
 
-# 0.9.4 <img src="https://img.shields.io/badge/Latest-Stable-green?style=flat-square" align="center" height="20" />
+# 0.9.5 <img src="https://img.shields.io/badge/Latest-Stable-green?style=flat-square" align="center" height="20" />
+
+### 🔧 Bug Fixes
+- `Create Mode`: fixed media uploading not working
+- `Fund Later`: fixed fund button not showing quest upon click (if non-owner funds it)
+- `Fund Later`: fixed attached media getting deleted when funding quests
+
+
+# 0.9.4
 ### ✨ Improvements
 - `Collect Mode`: added and optimized user rotation indicator on collect map
 - `Quests`: moved private quest indicator (lock icon) on quest details to the left of the quest ID to make it more visible
